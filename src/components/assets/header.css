@@ -1,0 +1,55 @@
+.header-wrapper {
+	display: flex;
+	background-color: #2b2d31;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-left {
+	display: flex;
+	gap: .9rem;
+}
+
+.header-right {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	padding-right: 2rem;
+}
+
+.header-logo {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-btn-box {
+	display: flex;
+	align-items: center;
+	background-color: #35393f;
+	padding: 1.8rem;
+	cursor: pointer;
+}
+
+.save-btn {
+	background-color: #e46643;
+	color: white;
+	padding: 1rem;
+	border: none;
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.save-btn:hover,
+.delete-btn:hover {
+	opacity: 0.9;
+}
+
+.delete-btn img{
+	cursor: pointer;
+	width: 1.3rem;
+}
