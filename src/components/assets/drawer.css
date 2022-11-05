@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-drawer {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1d1f22;
+  overflow-x: hidden;
+  transition: 0.2s;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+.menu-drawer.active {
+  /* display: block; */
+  width: 21vw;
+}
+
+.menu-logo {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.all-docs {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-all-docs {
+  color: grey;
+  padding: 0;
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.new-doc-btn {
+  background-color: #e46643;
+  color: white;
+  padding: 1rem;
+  margin: 1rem 0;
+  align-self: center;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+  gap: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90%;
+}
+
+.new-doc-btn:hover {
+  opacity: 0.9;
+}
+
+.menu-drawer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.documents-list {
+  padding: 0;
+  color: var(--color-100);
+  overflow-y: hidden;
+  scrollbar-color: var(--accent) transparent;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e46643;
+  -webkit-border-radius: 1px;
+  -webkit-box-shadow: none;
+  border-radius: 1px;
+  box-shadow: none;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  -webkit-border-radius: 1px;
+  -webkit-box-shadow: none;
+  border-radius: 1px;
+  box-shadow: none;
+}
+
+.documents-infos {
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.documents-list .documents-infos {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  cursor: pointer;
+  text-align: left;
+  box-sizing: content-box;
+}
+
+.documents-list .documents-infos:hover {
+  background-color: #2b2d31;
+}
+
+.documents-infos.active {
+  background-color: #2f3133;
+}
+
+.documents-infos-icon {
+  margin-right: 11px;
+  position: relative;
+}
+
+.documents-infos-icon img {
+  height: 14px;
+  padding: 6px;
+  margin: 11px;
+  box-sizing: initial;
+}
+
+.documents-infos-text {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  width: 100%;
+}
+
+.documents-infos-date {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--color-500);
+  overflow: hidden;
+}
+
+.documents-infos-name {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  max-height: 18px;
+  color: #fff;
+  overflow: hidden;
+  word-break: break-all;
+  margin: 0;
+}
+
+.editor-preview a {
+  color: black;
+}
+
+.mode-toggler {
+  gap: 8px;
+  display: flex;
+}
+
+.toggler-label {
+  background: var(--color-500);
+  width: 48px;
+  height: 28px;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.bi {
+  color: #fff;
+}
+
+.toggler-label .ball {
+  background-color: #fff;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0;
+  right: 32px;
+  border-radius: 50%;
+  transition: transform 0.3s linear;
+}
+
+.ball.active {
+  transform: translateX(20px);
+}
