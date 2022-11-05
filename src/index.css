@@ -1,5 +1,25 @@
+#root {
+	--color-100: #ffffff;
+	--color-200: #f5f5f5;
+	--color-300: #e4e4e4;
+	--color-400: #c1c4cb;
+	--color-500: #7c8187;
+	--color-600: #5a6069;
+	--color-700: #35393f;
+	--color-800: #2b2d31;
+	--color-900: #1d1f22;
+	--color-1000: #151619;
+	--accent: #e46643;
+	--accent-light: #f39765;
+	--font-primary: 'Roboto', sans-serif;
+	--font-secondary: 'Roboto Slab', monospace;
+	--sidebar-transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

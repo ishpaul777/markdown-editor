@@ -1,0 +1,20 @@
+.delete-btn-confirm {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+  border: none;
+	color: white;
+	background-color: #e46643;
+	padding: 12px 24px;
+	border-radius: 4px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.delete-btn-confirm:hover {
+	opacity: 0.8;
+}
