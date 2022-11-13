@@ -173,7 +173,7 @@
   color: var(--accent-light); /* Change the color */
 }
 
-@media only screen and ( max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .editor-col-head {
     position: fixed;
     min-width: 100%;
@@ -222,6 +222,4 @@
     outline: none;
     border: none;
   }
-
 }
-

@@ -206,14 +206,13 @@
   transform: translateX(20px);
 }
 
-
-@media only screen and ( max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .menu-drawer {
     height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 10;
+    top: 0;
     left: 0;
     background-color: #1d1f22;
     overflow-x: hidden;
@@ -222,10 +221,11 @@
     flex-direction: column;
     padding-top: 2rem;
   }
+
   .menu-drawer.active {
     /* display: block; */
+
     /* width: 80vw; */
     width: 21vw;
   }
-
 }
