@@ -217,3 +217,21 @@
 .ball.active {
   transform: translateX(20px);
 }
+
+.attribution {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.attribution a {
+  color: #e46643;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.attribution .bi {
+  color: red;
+}
