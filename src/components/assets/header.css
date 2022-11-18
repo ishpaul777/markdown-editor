@@ -2,6 +2,7 @@
   position: fixed;
   height: 65px;
   width: 100%;
+  max-width: 100vw;
   display: flex;
   background-color: #2b2d31;
   justify-content: space-between;
@@ -11,6 +12,16 @@
 
 body.pushed {
   margin-left: 21vw;
+}
+
+@media screen and (max-width: 768px) {
+  body.pushed {
+    margin-left: 80vw;
+  }
+
+  .logo {
+    display: none;
+  }
 }
 
 .header-left {
@@ -79,6 +90,12 @@ body.pushed {
   border: none;
 }
 
+@media screen and (max-width: 768px) {
+  .menu-btn-box {
+    padding: 1.3rem;
+  }
+}
+
 .save-btn {
   background-color: #e46643;
   color: white;
@@ -90,6 +107,12 @@ body.pushed {
   gap: 5px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .save-btn {
+    display: none;
+  }
 }
 
 .save-btn:hover,

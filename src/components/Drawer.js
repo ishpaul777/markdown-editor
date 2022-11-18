@@ -72,6 +72,16 @@ const Drawer = ({ isDrawerOpen }) => {
         </button>
         <ul className="documents-list">{docsNames}</ul>
       </div>
+      <footer className="attribution">
+        Made with
+        {' '}
+        <i className="bi bi-heart-fill" />
+        {' '}
+        by
+        {' '}
+        <a href="https://github.com/ishpaul777/">Ishpaul Singh</a>
+        {' '}
+      </footer>
     </div>
   );
 };

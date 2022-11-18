@@ -62,7 +62,7 @@ const Header = () => {
           <button onClick={handleClick} type="button" className="menu-btn-box">
             <img src={isDrawerOpen ? closeIcon : menuIcon} alt="open menu" />
           </button>
-          <img src={logo} alt="open menu" className="logo" />
+          <img src={logo} alt="logo" className="logo" />
           <div className="doc-name-box">
             <img src={iconDoc} alt="document" />
             <span className="doc-name-container">
