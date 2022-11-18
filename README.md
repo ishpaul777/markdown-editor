@@ -30,7 +30,7 @@ Users should be able to:
 ![screenshot](https://github.com/ishpaul777/markdown-editor/blob/dev/src/screenshot.jpg?raw=true)
 
 ### Deployment
-#### [Try here](https://remyboire.github.io/markdowneditor/)
+#### [Try here](https://mds-notes.netlify.app/)
 -  Project is deployed on Netlify.
 
 ### Built with
