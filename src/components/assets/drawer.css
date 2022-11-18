@@ -23,6 +23,18 @@
   width: 21vw;
 }
 
+@media screen and (max-width: 768px) {
+  .menu-drawer.active {
+    width: 80vw;
+  }
+
+  .menu-logo {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 1rem;
+  }
+}
+
 .menu-logo {
   display: flex;
   align-items: center;
@@ -204,4 +216,22 @@
 
 .ball.active {
   transform: translateX(20px);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.attribution a {
+  color: #e46643;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.attribution .bi {
+  color: red;
 }
