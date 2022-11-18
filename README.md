@@ -1,4 +1,4 @@
-# In-browser markdown editor solution [Try here](https://mds-notes.netlify.app/)
+# In-browser markdown editor solution [Try it](https://mds-notes.netlify.app/)
 ## Table of contents
 
 - [Overview](#overview)
