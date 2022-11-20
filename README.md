@@ -40,9 +40,9 @@ Users should be able to:
 
 ### Continued development
 - Might convert the markdown editor into a code editor that supports -
-      - Html
-      - CSS
-      - JavaScript
+   - Html
+   - CSS
+   - JavaScript
 
 ### Acknowledgement
 This is a solution to the [In-browser markdown editor challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/inbrowser-markdown-editor-r16TrrQX9). Frontend Mentor challenges help you improve your coding skills by building real projects. 
