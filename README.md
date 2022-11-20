@@ -52,7 +52,8 @@ Pamphile Musonda helped in making the site responsive.
  - GitHub - [Pamphilemkp](https://github.com/Pamphilemkp) 
 
 ## Author
-- GitHub - [@ishpaul777](https://www.frontendmentor.io/profile/ishpaul777)
+- GitHub - [@ishpaul777](https://github.com/ishpaul777/)
 - LinkedIn - [Ishpaul Singh](https://www.linkedin.com/in/ishpaul777/)
 - Twitter - [@ishpaul777](https://twitter.com/ishpaul_777)
+
 
